@@ -51,7 +51,7 @@ body {
 ───────────────────────────────────── */
 .sidebar {
   width: var(--sidebar-w);
-  min-height: 100vh;
+  height: 100vh;           /* constrained height so overflow-y:auto actually scrolls */
   background: var(--navy-sidebar);
   border-right: 1px solid var(--border);
   position: fixed;
